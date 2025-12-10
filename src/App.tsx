@@ -196,7 +196,7 @@ function App() {
               <h3>Ceremony</h3>
               <p className="detail">10:00 AM · Sri Mathura Hall</p>
               <p>Sri Mathura Hall, No.190 Station Road, Vairavapuliyankulam, Vavuniya.</p>
-              <p className="tag">Followed by lunch · Dress code: Pastel elegance</p>
+              <p className="tag">Followed by lunch · Dress code: Your wish</p>
             </motion.div>
             <motion.div className="event-card" {...fadeUp}>
               <h3>Location</h3>
