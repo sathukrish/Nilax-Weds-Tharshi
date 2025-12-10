@@ -201,7 +201,7 @@ function App() {
             <motion.div className="event-card" {...fadeUp}>
               <h3>Location</h3>
               <p className="detail">Sri Mathura Hall, Vavuniya</p>
-              <p>Ample parking · Kids welcome.</p>
+              <p>Kids welcome.</p>
               <div className="map-wrapper">
                 <iframe
                   title="Venue map"
