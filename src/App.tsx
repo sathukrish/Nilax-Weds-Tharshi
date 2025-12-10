@@ -205,7 +205,7 @@ function App() {
               <div className="map-wrapper">
                 <iframe
                   title="Venue map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.732552894219!2d80.493!3d8.746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2sSri%20Mathura%20Hall%2C%20Station%20Road%2C%20Vairavapuliyankulam%2C%20Vavuniya!5e0!3m2!1sen!2slk!4v1700000000001"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31562.253999352365!2d80.48670596714357!3d8.76078508341566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afc15a819ddeb4f%3A0xdac2b28aa2d803d2!2sQF6Q%2B9Q3%2C%20Station%20Road%2C%20Vavuniya!5e0!3m2!1sen!2slk!4v1733823602305"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   allowFullScreen

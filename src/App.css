@@ -384,12 +384,31 @@
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
-    gap: 0.75rem;
-    align-items: flex-start;
+    gap: 0.85rem;
+    align-items: center;    /* Center alignment instead of left */
+    padding: 0.75rem 1rem;
+    text-align: center;
   }
 
+  .brand {
+    font-size: 1.1rem;      /* Slightly smaller for mobile */
+  }
+
+  .nav-actions {
+    flex-wrap: wrap;        /* Allows items to break to the next line */
+    justify-content: center;
+    gap: 0.6rem;
+  }
+
+  .nav-actions a,
+  .nav-actions button {
+    padding: 0.55rem 0.9rem; /* Smaller buttons */
+    font-size: 0.9rem;
+  }
+
+  /* HERO FIX – prevents overlap with nav */
   .hero {
-    padding-top: 4rem;
+    padding-top: 6rem !important; /* Extra gap for top area */
   }
 
   .hero-content {
@@ -397,6 +416,6 @@
   }
 
   .section {
-    padding-inline: 1.25rem;
+    padding-inline: 1rem;
   }
 }
